@@ -54,6 +54,6 @@
     "typescript-eslint": "^8.20.0"
   },
   "overrides": {
-    "glob": "^11.0.0"
+    "glob": "^13.0.6"
   }
 }
