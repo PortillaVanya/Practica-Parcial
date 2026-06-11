@@ -267,9 +267,7 @@ practica-backend/
 ├── .gitignore
 ├── .dockerignore
 ├── .env.example
-├── Dockerfile.TODO          ← corregir y renombrar a Dockerfile
-├── seed/
-│   └── README.md
+├── Dockerfile
 └── src/
     ├── main.ts
     ├── app.module.ts
@@ -291,21 +289,22 @@ practica-backend/
     │   ├── auth.module.ts
     │   ├── auth.service.ts
     │   ├── auth.controller.ts
-    │   └── dto/
-    │       └── login.dto.ts
+    │   ├── dto/
+    │   │   └── login.dto.ts
     │   └── strategies/
     │       └── jwt.strategy.ts
     ├── users/
     │   ├── user.entity.ts
     │   ├── users.module.ts
+    │   ├── users.controller.ts
     │   └── users.service.ts
-    ├── tasks/
-    │   ├── task.entity.ts
-    │   ├── task.module.ts
-    │   ├── task.service.ts
-    │   └── task.controller.ts
-    └── estudiantes/         ← TU TAREA: crear los archivos aquí
-        └── (vacío)
+    └── estudiantes/         ✅ IMPLEMENTADO
+        ├── estudiante.entity.ts
+        ├── estudiante.module.ts
+        ├── estudiante.service.ts
+        ├── estudiante.controller.ts
+        └── dto/
+            └── create-estudiante.dto.ts
 ```
 
 ---
